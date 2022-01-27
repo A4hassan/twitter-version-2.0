@@ -1,0 +1,34 @@
+.feed {
+    flex: 0.5;
+    border-right: 1px solid var(--twitter-background);
+    min-width: 40%;
+    overflow-y: scroll;
+}
+
+
+.feed::-webkit-scrollbar {
+    display: none;
+    /* The above code is used to hide the scrollbar in chrome,safari and opera */
+}
+
+.feed{
+
+    -ms-overflow-style: none;   /*-> its used to hide in IE and Edge*/
+    scrollbar-width: none;       /*-> its used to hide in firefox*/
+
+
+}
+
+.feed__header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100px;
+    border-right: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+}
+.feed__header > h2 {
+    outline: none;
+    font-size: 25px;
+    font-weight: 700;
+}
