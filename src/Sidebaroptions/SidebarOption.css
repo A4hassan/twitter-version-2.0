@@ -1,0 +1,36 @@
+.sidebarOption {
+    display: flex;
+    padding: 20px;
+    margin-left: 150px;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Saira Condensed', sans-serif;
+    
+}
+
+.sidebarOption :hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 10ms ease-out;
+}
+
+.sidebarOption >.MuiSvgIcon-root {   
+margin-bottom: 11px;
+margin-right: 5px;
+width: 40px;
+height: 40px;
+color: black;
+
+}
+
+.sidebarOption > h2 { 
+font-size: 30px;
+margin-right: 20px;
+padding-left: 15px;
+padding: 5px;
+color: black;  
+}
+span{
+    margin-left: 5px;
+}

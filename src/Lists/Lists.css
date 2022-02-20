@@ -1,0 +1,35 @@
+.lst_main {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    border-right: 1px solid var(--twitter-background);
+    margin-left: 70px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.lst_user_name {
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: gray; 
+}
+/* .both {
+    border-bottom: 1px solid var(--twitter-background);
+} */
+
+.lst_sub {
+    padding-left: 10%;
+    width: 800px;
+    font-size: 18px;
+    color: gray;
+    margin-top: 100px;
+}
+
+.tweet_lst {
+    padding-left: 20px;
+    font-weight: bolder;
+    border-top: 1px solid var(--twitter-background);
+    width: 870px;
+}

@@ -1,0 +1,37 @@
+.msgs {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    border-right: 1px solid var(--twitter-background);
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;      
+}
+
+.msgs_search {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    border-bottom: 1px solid var(--twitter-background);
+
+}
+
+.msgs_control{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    /* margin-left: 20px; */
+    margin-top: 10px;
+    outline: none;
+    background: #f5f4f2;
+    border-radius: 100px;
+    padding: 15px 30px;
+
+}
+.msgs_2 {
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 30px;
+}

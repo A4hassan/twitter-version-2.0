@@ -1,0 +1,44 @@
+.img_trend {
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 10px;
+  top: 80px;
+  width: 35%;
+  padding: 20px 20px;
+  background: #f5f8fa;
+  height: 80%;
+  overflow-y:scroll; 
+}
+.trend {
+    border-bottom: 10px solid #fff;
+    width:100%;
+}
+
+.keyword_heading {
+    font-size: 20px;
+    border-bottom: 1px solid #e6ecf0;
+    padding-top:40px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.author {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.keyword_name {
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.keywords_trending {
+    margin-top: 7px;
+    color: slategray;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}

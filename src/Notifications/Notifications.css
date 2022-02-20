@@ -1,0 +1,38 @@
+/* .avt {
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom: 10px;
+} */
+
+.noti_tweet {
+position: fixed;
+margin-top: 50px;
+top: 80px;
+width: 40%;
+padding: 20px 20px;
+height: 80%;
+overflow-y:scroll;
+border-top: 1px solid var(--twitter-background);
+}
+.heading {
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 40px;
+
+}
+
+.sub_heading {
+font-size: 30px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+.noti_name {
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+.noti_article {
+    background-color: aliceblue;
+}
